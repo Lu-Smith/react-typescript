@@ -15,7 +15,7 @@ const InnerCard: React.FC<IProps> = ({id}) => {
   return (
     <div className='mt-auto'>
     {quantity === 0 ?
-    (<Button className='w-100' variant='warning'>+ Add To Card</Button> ): 
+    (<Button onClick={() => increaseCartQuantity(id)} className='w-100' variant='warning'>+ Add To Card</Button> ): 
     <div 
        className='d-flex align-items-center flex-column'
        style={{gap: ".5rem"}}>
