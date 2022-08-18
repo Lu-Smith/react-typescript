@@ -1,8 +1,19 @@
-import React from 'react'
+import React from 'react';
+import storeItems from "../data/items.json";
+import {Row, Col} from "react-bootstrap";
 
 const Store: React.FC = () => {
   return (
-    <div>Store</div>
+    <>
+      <h1>Store</h1>  
+      <Row>
+        {storeItems.map(item => (
+          <Col>{JSON.stringify(item)}</Col>
+        ))}
+        
+      </Row>
+    </>
+    
   )
 }
 
