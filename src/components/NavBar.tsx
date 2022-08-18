@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar: React.FC = () => {
   return (
-    <NavbarBS className='bg-white shadow-sm mb-3'>
+    <NavbarBS sticky="top" className='bg-white shadow-sm mb-3'>
         <Container>
           <Nav className='me-auto'>
             <Nav.Link to="/" as={NavLink}>Home</Nav.Link>
