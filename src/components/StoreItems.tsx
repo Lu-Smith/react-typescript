@@ -1,6 +1,7 @@
 import React from 'react'
-import { Button, Card } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import {formatCurrency} from '../utilities/formatCurrency';
+import InnerCard from './InnerCard';
 
 interface Props {
     id: number,
@@ -10,8 +11,6 @@ interface Props {
 }
 
 const StoreItems: React.FC<Props> = ({id, name, price, imgUrl}) => {
-
-    const quantity = 0; 
 
   return (
     <Card className='h-100'>
@@ -26,11 +25,7 @@ const StoreItems: React.FC<Props> = ({id, name, price, imgUrl}) => {
                 <span className='"fs-2'>{name}</span>
                 <span className='"ms-2 text-muted'>{formatCurrency(price)}</span>
             </Card.Title>
-            <div className='mt-auto'>
-                {quantity === 0 ?
-                (<Button className="w-100">+ Add To Card</Button> ): 
-                null}
-            </div>
+            <InnerCard />
         </Card.Body>
     </Card>
   )
