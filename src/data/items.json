@@ -8,13 +8,13 @@
     {
       "id": 2,
       "name": "Candy",
-      "price": 1199,
+      "price": 11.99,
       "imgUrl": "https://images.pexels.com/photos/33239/halloween-candy-chocolates-nuts-sweet.jpg?auto=compress&cs=tinysrgb&w=1600"
     },
     {
       "id": 3,
       "name": "Ice Creams",
-      "price": 3.00,
+      "price": 3.40,
       "imgUrl": "https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=1600"
     },
     {
