@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 import {formatCurrency} from '../utilities/formatCurrency';
 import InnerCard from './InnerCard';
 
-interface Props {
+export interface Props {
     id: number,
     name: string,
     price: number,
@@ -25,7 +25,7 @@ const StoreItems: React.FC<Props> = ({id, name, price, imgUrl}) => {
                 <span className='"fs-2'>{name}</span>
                 <span className='"ms-2 text-muted'>{formatCurrency(price)}</span>
             </Card.Title>
-            <InnerCard />
+            <InnerCard id={id} name={name} price={price} imgUrl={imgUrl}/>
         </Card.Body>
     </Card>
   )

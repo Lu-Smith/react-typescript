@@ -1,10 +1,17 @@
 import React from 'react'
 import { Button} from 'react-bootstrap';
+import { Props as IProps} from './StoreItems';
+import { useShoppingCart } from '../context/ShoppingCartContext'
 
-const InnerCard: React.FC = () => {
+const InnerCard: React.FC<IProps> = ({id}) => {
 
-    const quantity = 0; 
+    const {getItemQuantity,
+        increaseCartQuantity,
+        decreaseCartQuantity,
+        removeFromCart
+       } = useShoppingCart()
 
+       const quantity = getItemQuantity(id)
   return (
     <div className='mt-auto'>
     {quantity === 0 ?
@@ -15,17 +22,18 @@ const InnerCard: React.FC = () => {
         <div 
           className='d-flex align-items-center flex-row'
           style={{gap: ".5rem"}}>
-          <Button>-</Button>
+          <Button onClick={() => decreaseCartQuantity(id)}>-</Button>
           <div>
           <span className='fs-3'>{quantity}</span> in cart
           </div>
-          <Button>+</Button>
+          <Button onClick={() => increaseCartQuantity(id)}>+</Button>
           
         </div>
-        <Button variant='danger' size='sm'>Remove</Button>
+        <Button onClick={() => removeFromCart(id)} variant='danger' size='sm'>Remove</Button>
     </div>}
 </div>
   )
+
 }
 
 export default InnerCard;
