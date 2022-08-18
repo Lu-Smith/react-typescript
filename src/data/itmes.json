@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Macarons",
+      "price": 3.60,
+      "imgUrl": "https://images.pexels.com/photos/808941/pexels-photo-808941.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+      "id": 2,
+      "name": "Candy",
+      "price": 1199,
+      "imgUrl": "https://images.pexels.com/photos/33239/halloween-candy-chocolates-nuts-sweet.jpg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+      "id": 3,
+      "name": "Ice Creams",
+      "price": 3.00,
+      "imgUrl": "https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+      "id": 4,
+      "name": "Chocolate",
+      "price": 2.99,
+      "imgUrl": "https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+       "id": 5,
+       "name": "Cheescake",
+       "price": 7.99,
+       "imgUrl": "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+       "id": 6,
+       "name": "Donuts",
+       "price": 3.50,
+       "imgUrl": "https://images.pexels.com/photos/1191639/pexels-photo-1191639.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+       "id": 7,
+       "name": "Cookies",
+       "price": 6.50,
+       "imgUrl": "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+       "id": 8,
+       "name": "Gummy Bears",
+       "price": 14.00,
+       "imgUrl": "https://images.pexels.com/photos/1193742/pexels-photo-1193742.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    }
+  ]
