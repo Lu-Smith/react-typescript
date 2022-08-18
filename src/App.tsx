@@ -5,11 +5,12 @@ import Home from './pages/Home';
 import Store from './pages/Store';
 import About from './pages/About';
 import NavBar from './components/NavBar';
+import { ShoppingCartPovider } from './context/ShoppingCartContext';
 
 
 const App: React.FC = () => {
   return (
-    <>
+    <ShoppingCartPovider>
       <NavBar />
       <Container className='mb-4'>
         <Routes>
@@ -18,7 +19,7 @@ const App: React.FC = () => {
           <Route path="/about" element={<About />} />
         </Routes>
       </Container>
-    </>
+    </ShoppingCartPovider>
   );
 }
 
