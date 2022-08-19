@@ -1,8 +1,12 @@
 import React from 'react';
 import {Button, Container, Nav, Navbar as NavbarBS} from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import { useShoppingCart } from '../context/ShoppingCartContext';
 
 const NavBar: React.FC = () => {
+
+  const { openCart, cartQuantity} = useShoppingCart();
+
   return (
     <NavbarBS sticky="top" className='bg-white shadow-sm mb-3'>
         <Container>
@@ -11,7 +15,9 @@ const NavBar: React.FC = () => {
             <Nav.Link to="/store" as={NavLink}>Store</Nav.Link>
             <Nav.Link to="/about" as={NavLink}>About</Nav.Link>
           </Nav>
+          {cartQuantity > 0 && (
            <Button 
+            onClick={openCart}
             style={{ 
              width: "3.5rem", 
              height: "3.5rem",
@@ -34,8 +40,9 @@ const NavBar: React.FC = () => {
               bottom: 0,
               right: 0,
               transform: "translate(25%, 25%)"
-             }}>3</div>
+             }}>{cartQuantity}</div>
            </Button>
+           )}
         </Container>
     </NavbarBS>
   )
