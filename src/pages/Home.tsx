@@ -13,7 +13,6 @@ const Home: React.FC = () => {
 
   return (
     <div className='Home'>
-      <Image fluid={true} src={Background} alt="heart shape candy by Pexel.com"/>
       <OverlayTrigger
       placement="right"
       delay={{ show: 250, hide: 400 }}
@@ -21,6 +20,7 @@ const Home: React.FC = () => {
       >
       <span className='Logo'>CandyHeaven</span>
       </OverlayTrigger>
+      <Image fluid={true} src={Background} alt="heart shape candy by Pexel.com"/>
     </div>
   )
 }

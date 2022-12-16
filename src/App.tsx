@@ -11,16 +11,19 @@ import './App.css';
 
 const App: React.FC = () => {
   return (
-    <ShoppingCartPovider>
-      <NavBar />
-      <Container className='mb-4'>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/store" element={<Store />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
-      </Container>
-    </ShoppingCartPovider>
+    <div className="App">
+         <ShoppingCartPovider>
+            <NavBar />
+            <Container className='mb-4'>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/store" element={<Store />} />
+                <Route path="/about" element={<About />} />
+              </Routes>
+            </Container>
+          </ShoppingCartPovider>
+    </div>
+    
   );
 }
 
