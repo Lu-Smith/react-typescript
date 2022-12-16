@@ -30,6 +30,9 @@
     margin-top: 10px;
 }
 
+.About {
+    height: 100vh;
+}
 .About .Logo {
     color: white;
     font-family: 'Rubik Vinyl', cursive;
@@ -38,8 +41,16 @@
     margin-top: 10px;
 }
 
+.About .Description {
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    margin: 10px 0 20px 0;
+    font-style: italic;
+}
+
 .About .ContactUs {
     color: pink;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
 }

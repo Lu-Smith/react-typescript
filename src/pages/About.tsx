@@ -19,8 +19,9 @@ const About: React.FC = () => {
       >
       <span className='Logo'>CandyHeaven</span>
       </OverlayTrigger>
+      <div className='Description'>CandyHeaven establishe in 1000 years ago when a first candy was invented by a witch from Norway. We deliver delicious treats to humans and aliens in the Milky Way galaxy to cherrish the magic of sweets.</div>
       <Accordion defaultActiveKey="0" style={{fontSize: "1.2rem"}}>
-          <Accordion.Item eventKey="0" style={{fontSize: "1.2rem", background: "#8214cc", color: "white"}}>
+          <Accordion.Item eventKey="0" style={{fontSize: "1.2rem", background: "#e650b4", color: "white"}}>
               <Accordion.Header><span className='ContactUs'>Contact us</span></Accordion.Header>
               <Accordion.Body>
                 We love to hear from you. Get in touch.
