@@ -1,39 +1,39 @@
 [
     {
       "id": 1,
-      "name": "Macarons",
-      "price": 3.60,
-      "imgUrl": "https://images.pexels.com/photos/808941/pexels-photo-808941.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      "name": "Lollipops",
+      "price": 1.60,
+      "imgUrl": "https://images.pexels.com/photos/4202952/pexels-photo-4202952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 2,
-      "name": "Candy",
-      "price": 11.99,
-      "imgUrl": "https://images.pexels.com/photos/33239/halloween-candy-chocolates-nuts-sweet.jpg?auto=compress&cs=tinysrgb&w=1600"
+      "name": "Fluffy Candy",
+      "price": 5.99,
+      "imgUrl": "https://images.pexels.com/photos/89731/pexels-photo-89731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 3,
-      "name": "Ice Creams",
+      "name": "Hard Candy",
       "price": 3.40,
-      "imgUrl": "https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      "imgUrl": "https://images.pexels.com/photos/4016512/pexels-photo-4016512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 4,
-      "name": "Chocolate",
-      "price": 2.99,
-      "imgUrl": "https://images.pexels.com/photos/918327/pexels-photo-918327.jpeg?auto=compress&cs=tinysrgb&w=1600"
+      "name": "Wrapped Hard Candy",
+      "price": 3.49,
+      "imgUrl": "https://images.pexels.com/photos/2350388/pexels-photo-2350388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
        "id": 5,
-       "name": "Cheescake",
-       "price": 7.99,
-       "imgUrl": "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=1600"
+       "name": "Sugar Candy",
+       "price": 6.99,
+       "imgUrl": "https://images.pexels.com/photos/1578293/pexels-photo-1578293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
        "id": 6,
-       "name": "Donuts",
+       "name": "Cupcake",
        "price": 3.50,
-       "imgUrl": "https://images.pexels.com/photos/1191639/pexels-photo-1191639.jpeg?auto=compress&cs=tinysrgb&w=1600"
+       "imgUrl": "https://images.pexels.com/photos/1120464/pexels-photo-1120464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
        "id": 7,
@@ -46,5 +46,83 @@
        "name": "Gummy Bears",
        "price": 14.00,
        "imgUrl": "https://images.pexels.com/photos/1193742/pexels-photo-1193742.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    }
+    },
+    {
+      "id": 9,
+      "name": "Cherry jellies",
+      "price": 2.50,
+      "imgUrl": "https://images.pexels.com/photos/1405760/pexels-photo-1405760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+   },
+   {
+      "id": 10,
+      "name": "Hearts",
+      "price": 3.20,
+      "imgUrl": "https://images.pexels.com/photos/208006/pexels-photo-208006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+   },
+   {
+      "id": 11,
+      "name": "Nonbinary candy",
+      "price": 4.50,
+      "imgUrl": "https://images.pexels.com/photos/1375807/pexels-photo-1375807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+   },
+   {
+    "id": 12,
+    "name": "Macarons",
+    "price": 3.60,
+    "imgUrl": "https://images.pexels.com/photos/808941/pexels-photo-808941.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  },
+  {
+    "id": 13,
+    "name": "Candy",
+    "price": 11.99,
+    "imgUrl": "https://images.pexels.com/photos/33239/halloween-candy-chocolates-nuts-sweet.jpg?auto=compress&cs=tinysrgb&w=1600"
+  },
+  {
+    "id": 14,
+    "name": "Gingerbread",
+    "price": 3.40,
+    "imgUrl": "https://images.pexels.com/photos/3309805/pexels-photo-3309805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 15,
+    "name": "Pill Candy",
+    "price": 2.99,
+    "imgUrl": "https://images.pexels.com/photos/4016655/pexels-photo-4016655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+     "id": 16,
+     "name": "Jelly Beans",
+     "price": 7.99,
+     "imgUrl": "https://images.pexels.com/photos/539447/pexels-photo-539447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+     "id": 17,
+     "name": "Donuts",
+     "price": 3.50,
+     "imgUrl": "https://images.pexels.com/photos/4686958/pexels-photo-4686958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "id": 18,
+    "name": "Christmas Cookies",
+    "price": 3.99,
+    "imgUrl": "https://images.pexels.com/photos/6102136/pexels-photo-6102136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+     "id": 19,
+     "name": "Rainbow Candy",
+     "price": 6.99,
+     "imgUrl": "https://images.pexels.com/photos/9888801/pexels-photo-9888801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+     "id": 20,
+     "name": "Heart Lollipops",
+     "price": 3.50,
+     "imgUrl": "https://images.pexels.com/photos/6798343/pexels-photo-6798343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+     "id": 21,
+     "name": "Sprinkles",
+     "price": 2.20,
+     "imgUrl": "https://images.pexels.com/photos/7110165/pexels-photo-7110165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  }
   ]
