@@ -6,6 +6,7 @@ import Store from './pages/Store';
 import About from './pages/About';
 import NavBar from './components/NavBar';
 import { ShoppingCartPovider } from './context/ShoppingCartContext';
+import './App.css';
 
 
 const App: React.FC = () => {
