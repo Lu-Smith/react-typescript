@@ -2,6 +2,9 @@ import React from 'react'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 import Accordion from 'react-bootstrap/Accordion';
+import ContactForm from '../components/ContactForm';
+import Footer from '../components/Footer';
+
 
 const About: React.FC = () => {
   const renderTooltip = (props:any) => (
@@ -24,10 +27,12 @@ const About: React.FC = () => {
           <Accordion.Item eventKey="0" style={{fontSize: "1.2rem", background: "#e650b4", color: "white"}}>
               <Accordion.Header><span className='ContactUs'>Contact us</span></Accordion.Header>
               <Accordion.Body>
-                We love to hear from you. Get in touch.
+                  <div className='ContactUsMessage'> We love to hear from you. Get in touch.</div>
+                  <ContactForm />
               </Accordion.Body>
           </Accordion.Item>
       </Accordion>
+      <Footer />
     </div>
   )
 }

@@ -54,3 +54,8 @@
     font-size: 25px;
     font-weight: 700;
 }
+
+.About .ContactUsMessage {
+    margin-bottom: 10px;
+    font-style: italic;
+}
