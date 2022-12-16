@@ -1,49 +1,50 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import {
+    FaInstagram,
+    FaLinkedin,
+    FaFacebook,
+    FaTwitter,
+    FaYoutube,
+  } from "react-icons/fa";
 
 const Footer: React.FC = () => {
   return (
     <div className='Footer'>
          <CardGroup>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Twitter</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            Connect with us on our awesome Twitter account. Let sweetness stay with you.
           </Card.Text>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+        <Card.Footer className='Icons'>
+        <FaTwitter />
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>Facebook</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+            Daily update of candy life{' '}
           </Card.Text>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+        <Card.Footer className='Icons'>
+        <FaFacebook />
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
+          <Card.Title>LinkedIn</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
+            Share with us you sweet posts. Lets make the sweeter world together.
           </Card.Text>
         </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+        <Card.Footer className='Icons'>
+           <FaLinkedin />
         </Card.Footer>
       </Card>
     </CardGroup>
