@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'react-bootstrap/Image'
-import Background from '../media/hearts.jpg'
+import Background from '../media/heart.jpg'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 
@@ -20,7 +20,7 @@ const Home: React.FC = () => {
       >
       <span className='Logo'>CandyHeaven</span>
       </OverlayTrigger>
-      <Image fluid={true} src={Background} alt="heart shape candy by Pexel.com"/>
+      <Image fluid src={Background} alt="heart shape candy by Pexel.com"/>
     </div>
   )
 }

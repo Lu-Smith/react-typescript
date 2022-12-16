@@ -1,10 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik+Vinyl&display=swap');
+
+
 .App {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: pink;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .Home {
     background-color: pink;
+    position: relative;
+}
+
+.Home .Logo {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 30px;
+    font-weight: 800;
+    font-family: 'Rubik Vinyl', cursive;
+}
+
+.Store h1 {
+    color: white;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 10px;
 }

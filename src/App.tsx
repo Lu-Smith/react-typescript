@@ -14,7 +14,7 @@ const App: React.FC = () => {
     <div className="App">
          <ShoppingCartPovider>
             <NavBar />
-            <Container className='mb-4'>
+            <Container className='p-0'>
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/store" element={<Store />} />

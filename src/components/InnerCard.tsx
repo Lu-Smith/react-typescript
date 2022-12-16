@@ -22,9 +22,9 @@ const InnerCard: React.FC<IProps> = ({id}) => {
         <div 
           className='d-flex align-items-center flex-row'
           style={{gap: ".5rem"}}>
-          <Button onClick={() => decreaseCartQuantity(id)} variant="warning">-</Button>
+          <Button onClick={() => decreaseCartQuantity(id)} style={{fontSize: ".8rem", background: "#aa50e6"}}>-</Button>
           <div className='fs-3'>{quantity}</div>
-          <Button onClick={() => increaseCartQuantity(id)} variant="warning">+</Button>
+          <Button onClick={() => increaseCartQuantity(id)} style={{fontSize: ".8rem", background: "#b26ae2"}}>+</Button>
         </div>
         <br />
         <Button onClick={() => removeFromCart(id)} variant='danger' size='sm'>Remove</Button>
