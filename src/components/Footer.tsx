@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
     <div className='Footer'>
          <CardGroup>
       <Card>
-        <Card.Body>
+        <Card.Body style={{textAlign: "center"}}>
             <a  href="//twitter.com/LunaSmithArt"
                     target="_blank"
                     aria-label="Instagram">
@@ -25,11 +25,15 @@ const Footer: React.FC = () => {
             </a>
         </Card.Body>
         <Card.Footer className='Icons'>
-        <FaTwitter />
+             <a  href="//twitter.com/LunaSmithArt"
+                    target="_blank"
+                    aria-label="Instagram">
+                <FaTwitter />
+             </a>
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Body>
+        <Card.Body style={{textAlign: "center"}}>
             <a  href="//www.facebook.com/lunasmithart"
                     target="_blank"
                     aria-label="Instagram">
@@ -40,12 +44,15 @@ const Footer: React.FC = () => {
             </a>
         </Card.Body>
         <Card.Footer className='Icons'>
-        <FaFacebook />
+            <a  href="//www.facebook.com/lunasmithart"
+                    target="_blank"
+                    aria-label="Instagram">
+                <FaFacebook />
+            </a>
         </Card.Footer>
       </Card>
-      
       <Card>
-        <Card.Body>
+        <Card.Body style={{textAlign: "center"}}>
             <a  href="//www.linkedin.com/in/luna-smith/"
                     target="_blank"
                     aria-label="Instagram">
@@ -56,28 +63,33 @@ const Footer: React.FC = () => {
             </a>
         </Card.Body>
         <Card.Footer className='Icons'>
-           <FaLinkedin />
+             <a  href="//www.linkedin.com/in/luna-smith/"
+                    target="_blank"
+                    aria-label="Instagram">
+                <FaLinkedin />
+             </a>
         </Card.Footer>
       </Card>
       <Card >
-         <Card.Body>
-          <a  href="//www.instagram.com/lunasmithart/"
+         <Card.Body style={{textAlign: "center"}}>
+            <a  href="//www.instagram.com/lunasmithart/"
                 target="_blank"
                 aria-label="Instagram">
                 <Card.Title>Instagram</Card.Title>
                 <Card.Text>
                     Daily new photos with delicious treats.
                 </Card.Text>
-          </a>
+             </a>
         </Card.Body>
         <Card.Footer className='Icons'>
-           <FaInstagram />
+            <a  href="//www.instagram.com/lunasmithart/"
+                target="_blank"
+                aria-label="Instagram">
+              <FaInstagram />
+            </a>
         </Card.Footer>
-        
       </Card>
-      
     </CardGroup>
-
     </div>
   )
 }
