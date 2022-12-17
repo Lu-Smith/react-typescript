@@ -3,6 +3,7 @@ import Image from 'react-bootstrap/Image'
 import Background from '../media/heart.jpg'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
+import Footer from '../components/Footer';
 
 const Home: React.FC = () => {
   const renderTooltip = (props:any) => (
@@ -21,6 +22,7 @@ const Home: React.FC = () => {
       <span className='Logo'>CandyHeaven</span>
       </OverlayTrigger>
       <Image fluid src={Background} alt="heart shape candy by Pexel.com"/>
+      <Footer />
     </div>
   )
 }
