@@ -5,8 +5,7 @@ import {
     FaInstagram,
     FaLinkedin,
     FaFacebook,
-    FaTwitter,
-    FaYoutube,
+    FaTwitter
   } from "react-icons/fa";
 
 const Footer: React.FC = () => {
@@ -15,9 +14,10 @@ const Footer: React.FC = () => {
          <CardGroup>
       <Card>
         <Card.Body style={{textAlign: "center"}}>
-            <a  href="//twitter.com/LunaSmithArt"
+            <a href="//twitter.com/LunaSmithArt"
                     target="_blank"
-                    aria-label="Instagram">
+                    aria-label="Instagram"
+                    rel="noreferrer">
                 <Card.Title>Twitter</Card.Title>
                 <Card.Text>
                     Connect with us on our awesome Twitter account. Let sweetness stay with you.
@@ -25,9 +25,10 @@ const Footer: React.FC = () => {
             </a>
         </Card.Body>
         <Card.Footer className='Icons'>
-             <a  href="//twitter.com/LunaSmithArt"
+             <a href="//twitter.com/LunaSmithArt"
                     target="_blank"
-                    aria-label="Instagram">
+                    aria-label="Instagram"
+                    rel="noreferrer">
                 <FaTwitter />
              </a>
         </Card.Footer>
@@ -36,7 +37,8 @@ const Footer: React.FC = () => {
         <Card.Body style={{textAlign: "center"}}>
             <a  href="//www.facebook.com/lunasmithart"
                     target="_blank"
-                    aria-label="Instagram">
+                    aria-label="Instagram"
+                    rel="noreferrer">
                 <Card.Title>Facebook</Card.Title>
                 <Card.Text>
                     Daily update of candy life{' '}
@@ -44,18 +46,20 @@ const Footer: React.FC = () => {
             </a>
         </Card.Body>
         <Card.Footer className='Icons'>
-            <a  href="//www.facebook.com/lunasmithart"
+            <a href="//www.facebook.com/lunasmithart"
                     target="_blank"
-                    aria-label="Instagram">
+                    aria-label="Instagram"
+                    rel="noreferrer">
                 <FaFacebook />
             </a>
         </Card.Footer>
       </Card>
       <Card>
         <Card.Body style={{textAlign: "center"}}>
-            <a  href="//www.linkedin.com/in/luna-smith/"
+            <a href="//www.linkedin.com/in/luna-smith/"
                     target="_blank"
-                    aria-label="Instagram">
+                    aria-label="Instagram"
+                    rel="noreferrer">
                 <Card.Title>LinkedIn</Card.Title>
                 <Card.Text>
                     Share with us you sweet posts. Lets make the sweeter world together.
@@ -63,18 +67,20 @@ const Footer: React.FC = () => {
             </a>
         </Card.Body>
         <Card.Footer className='Icons'>
-             <a  href="//www.linkedin.com/in/luna-smith/"
+             <a href="//www.linkedin.com/in/luna-smith/"
                     target="_blank"
-                    aria-label="Instagram">
+                    aria-label="Instagram"
+                    rel="noreferrer">
                 <FaLinkedin />
              </a>
         </Card.Footer>
       </Card>
       <Card >
          <Card.Body style={{textAlign: "center"}}>
-            <a  href="//www.instagram.com/lunasmithart/"
+            <a href="//www.instagram.com/lunasmithart/"
                 target="_blank"
-                aria-label="Instagram">
+                aria-label="Instagram"
+                rel="noreferrer">
                 <Card.Title>Instagram</Card.Title>
                 <Card.Text>
                     Daily new photos with delicious treats.
@@ -82,9 +88,10 @@ const Footer: React.FC = () => {
              </a>
         </Card.Body>
         <Card.Footer className='Icons'>
-            <a  href="//www.instagram.com/lunasmithart/"
+            <a href="//www.instagram.com/lunasmithart/"
                 target="_blank"
-                aria-label="Instagram">
+                aria-label="Instagram"
+                rel="noreferrer">
               <FaInstagram />
             </a>
         </Card.Footer>
