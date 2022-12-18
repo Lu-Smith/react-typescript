@@ -17,7 +17,8 @@ const Footer: React.FC = () => {
             <a href="//twitter.com/LunaSmithArt"
                     target="_blank"
                     aria-label="Instagram"
-                    rel="noreferrer">
+                    rel="noreferrer"
+                    className='link'>
                 <Card.Title>Twitter</Card.Title>
                 <Card.Text>
                     Connect with us on our awesome Twitter account. Let sweetness stay with you.
@@ -28,7 +29,8 @@ const Footer: React.FC = () => {
              <a href="//twitter.com/LunaSmithArt"
                     target="_blank"
                     aria-label="Instagram"
-                    rel="noreferrer">
+                    rel="noreferrer"
+                    className='link'>
                 <FaTwitter />
              </a>
         </Card.Footer>
@@ -38,7 +40,8 @@ const Footer: React.FC = () => {
             <a  href="//www.facebook.com/lunasmithart"
                     target="_blank"
                     aria-label="Instagram"
-                    rel="noreferrer">
+                    rel="noreferrer"
+                    className='link'>
                 <Card.Title>Facebook</Card.Title>
                 <Card.Text>
                     Daily update of candy life{' '}
@@ -49,7 +52,8 @@ const Footer: React.FC = () => {
             <a href="//www.facebook.com/lunasmithart"
                     target="_blank"
                     aria-label="Instagram"
-                    rel="noreferrer">
+                    rel="noreferrer"
+                    className='link'>
                 <FaFacebook />
             </a>
         </Card.Footer>
@@ -59,7 +63,8 @@ const Footer: React.FC = () => {
             <a href="//www.linkedin.com/in/luna-smith/"
                     target="_blank"
                     aria-label="Instagram"
-                    rel="noreferrer">
+                    rel="noreferrer"
+                    className='link'>
                 <Card.Title>LinkedIn</Card.Title>
                 <Card.Text>
                     Share with us you sweet posts. Lets make the sweeter world together.
@@ -70,7 +75,8 @@ const Footer: React.FC = () => {
              <a href="//www.linkedin.com/in/luna-smith/"
                     target="_blank"
                     aria-label="Instagram"
-                    rel="noreferrer">
+                    rel="noreferrer"
+                    className='link'>
                 <FaLinkedin />
              </a>
         </Card.Footer>
@@ -80,7 +86,8 @@ const Footer: React.FC = () => {
             <a href="//www.instagram.com/lunasmithart/"
                 target="_blank"
                 aria-label="Instagram"
-                rel="noreferrer">
+                rel="noreferrer"
+                className='link'>
                 <Card.Title>Instagram</Card.Title>
                 <Card.Text>
                     Daily new photos with delicious treats.
@@ -91,7 +98,8 @@ const Footer: React.FC = () => {
             <a href="//www.instagram.com/lunasmithart/"
                 target="_blank"
                 aria-label="Instagram"
-                rel="noreferrer">
+                rel="noreferrer"
+                className='link'>
               <FaInstagram />
             </a>
         </Card.Footer>
