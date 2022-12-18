@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
                     rel="noreferrer"
                     className='link'>
                 <Card.Title>Twitter</Card.Title>
-                <Card.Text>
+                <Card.Text className='text'>
                     Connect with us on our awesome Twitter account. Let sweetness stay with you.
                 </Card.Text>
             </a>
@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
                     rel="noreferrer"
                     className='link'>
                 <Card.Title>Facebook</Card.Title>
-                <Card.Text>
+                <Card.Text className='text'>
                     Daily update of candy life{' '}
                 </Card.Text>
             </a>
@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
                     rel="noreferrer"
                     className='link'>
                 <Card.Title>LinkedIn</Card.Title>
-                <Card.Text>
+                <Card.Text className='text'>
                     Share with us you sweet posts. Lets make the sweeter world together.
                 </Card.Text>
             </a>
@@ -89,7 +89,7 @@ const Footer: React.FC = () => {
                 rel="noreferrer"
                 className='link'>
                 <Card.Title>Instagram</Card.Title>
-                <Card.Text>
+                <Card.Text className='text'>
                     Daily new photos with delicious treats.
                 </Card.Text>
              </a>

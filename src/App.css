@@ -69,3 +69,31 @@
     text-decoration: none;
     color: black;
 }
+
+.App .link .text {
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .Home .Logo {
+        font-size: 30px;
+        left: 10px;
+    }
+    
+    .Store h1 {
+        font-size: 30px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .About .Logo {
+        font-size: 30px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
