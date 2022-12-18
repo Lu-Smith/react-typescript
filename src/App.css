@@ -112,4 +112,12 @@
     .About .ContactUsMessage {
         font-size: 16px;
     }
+    
+    .App .link .text {
+        font-size: 12px;
+    }
+
+    .Store .cardText {
+        font-size: 18px;
+    }
 }

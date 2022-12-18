@@ -22,8 +22,8 @@ const StoreItems: React.FC<Props> = ({id, name, price, imgUrl}) => {
         <Card.Body
         className='d-flex flex-column'>
             <Card.Title className='d-flex justify-content-between align-items-baseline mb-4'>
-                <span className='"fs-2'>{name}</span>
-                <span className='"ms-2 text-muted'>{formatCurrency(price)}</span>
+                <span className='"fs-2 cardText'>{name}</span>
+                <span className='"ms-2 text-muted cardText'>{formatCurrency(price)}</span>
             </Card.Title>
             <InnerCard id={id} name={name} price={price} imgUrl={imgUrl}/>
         </Card.Body>
