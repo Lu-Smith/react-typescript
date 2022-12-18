@@ -96,4 +96,20 @@
         align-items: center;
         justify-content: center;
     }
+
+    .About .Description {
+        font-size: 16px;
+        padding: 0 20px;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    .About .ContactUs {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .About .ContactUsMessage {
+        font-size: 16px;
+    }
 }
