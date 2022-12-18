@@ -18,11 +18,11 @@ const NavBar: React.FC = () => {
           {cartQuantity > 0 && (
            <Button 
             onClick={openCart}
-            style={{ 
+             style={{ 
              width: "3.5rem", 
              height: "3.5rem",
              position: "relative" }}
-            variant="outline-success">
+             variant="outline-success">
            <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 576 512"
