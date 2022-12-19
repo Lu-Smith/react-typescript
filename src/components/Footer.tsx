@@ -104,6 +104,29 @@ const Footer: React.FC = () => {
             </a>
         </Card.Footer>
       </Card>
+      <Card >
+         <Card.Body style={{textAlign: "center"}}>
+            <a href="https://www.lunasmithart.com/"
+                target="_blank"
+                aria-label="Instagram"
+                rel="noreferrer"
+                className='link'>
+                <Card.Title>Portfolio</Card.Title>
+                <Card.Text className='text'>
+                    Check my portfolio and Github
+                </Card.Text>
+             </a>
+        </Card.Body>
+        <Card.Footer className='Icons'>
+            <a href="https://github.com/Lu-Smith/react-typescript"
+                target="_blank"
+                aria-label="Instagram"
+                rel="noreferrer"
+                className='link'>
+              <FaInstagram />
+            </a>
+        </Card.Footer>
+      </Card>
     </CardGroup>
     </div>
   )

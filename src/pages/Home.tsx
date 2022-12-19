@@ -1,11 +1,10 @@
-import React from 'react'
-import Image from 'react-bootstrap/Image'
-import Background from '../media/heart.jpg'
+import React from 'react';
+import Image from 'react-bootstrap/Image';
+import Background from '../media/heart.jpg';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
-import Footer from '../components/Footer';
 
-const Home: React.FC = () => {
+const Home = () => {
   const renderTooltip = (props:any) => (
     <Tooltip id="button-tooltip" {...props}>
       Yum Yum

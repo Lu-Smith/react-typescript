@@ -1,13 +1,11 @@
-import React from 'react'
+import React from 'react';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 import Accordion from 'react-bootstrap/Accordion';
 import ContactForm from '../components/ContactForm';
-import Footer from '../components/Footer';
 
-
-const About: React.FC = () => {
-  const renderTooltip = (props:any) => (
+const About = () => {
+  const renderTooltip = (props: any) => (
     <Tooltip id="button-tooltip" {...props} >
       Contact Us
     </Tooltip>

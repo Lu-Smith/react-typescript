@@ -2,9 +2,8 @@ import React from 'react';
 import storeItems from "../data/items.json";
 import {Row, Col} from "react-bootstrap";
 import StoreItems from '../components/StoreItems';
-import Footer from '../components/Footer';
 
-const Store: React.FC = () => {
+const Store = () => {
   return (
     <div className='Store'>
       <h1>CandyHeaven</h1>  
