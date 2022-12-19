@@ -5,7 +5,8 @@ import {
     FaInstagram,
     FaLinkedin,
     FaFacebook,
-    FaTwitter
+    FaTwitter,
+    FaGithub
   } from "react-icons/fa";
 
 const Footer: React.FC = () => {
@@ -123,7 +124,7 @@ const Footer: React.FC = () => {
                 aria-label="Instagram"
                 rel="noreferrer"
                 className='link'>
-              <FaInstagram />
+              <FaGithub />
             </a>
         </Card.Footer>
       </Card>
