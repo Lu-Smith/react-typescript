@@ -32,7 +32,6 @@ const About: React.FC = () => {
               </Accordion.Body>
           </Accordion.Item>
       </Accordion>
-      <Footer />
     </div>
   )
 }

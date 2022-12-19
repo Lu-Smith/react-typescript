@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Store from './pages/Store';
 import About from './pages/About';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import { ShoppingCartPovider } from './context/ShoppingCartContext';
 import './App.css';
 
@@ -21,6 +22,7 @@ const App: React.FC = () => {
                 <Route path="/about" element={<About />} />
               </Routes>
             </Container>
+            <Footer />
           </ShoppingCartPovider>
     </div>
     

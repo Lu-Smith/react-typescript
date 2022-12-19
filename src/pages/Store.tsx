@@ -14,7 +14,6 @@ const Store: React.FC = () => {
         ))}
         
       </Row>
-      <Footer />
     </div>
     
   )

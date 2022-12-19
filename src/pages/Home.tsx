@@ -22,7 +22,6 @@ const Home: React.FC = () => {
       <span className='Logo'>CandyHeaven</span>
       </OverlayTrigger>
       <Image fluid src={Background} alt="heart shape candy by Pexel.com"/>
-      <Footer />
     </div>
   )
 }
